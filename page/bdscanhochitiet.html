@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BDS Căn Hộ Chi Tiết</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script> 
+  </head>
+  <body>
+  <header>
+    <div class="container">
+        <div class="nav-pc">
+          <div class="logo">
+            <a href="../index.html"><img src="../img/logo.png"></a>
+          </div>
+          <div class="menu-pc">
+            <ul>
+              <li><a href="../index.html">TRANG CHỦ.</a></li>
+              <li><a href="../page/gioithieu.html">GIỚI THIỆU.</a></li>
+              <li><a href="../page/bdscanho.html">BDS ĐANG PHÂN PHỐI.</a></li>
+              <li><a href="../page/lienhe.html">LIÊN HỆ.</a></li>
+            </ul>
+          </div>
+          <div class="contact">
+            <a href="#"><i class="fas fa-phone-alt" style="padding-right: 10px"></i>0935 542 260</a>
+          </div>
+        </div>
+        <div class="nav-mobile">
+          <div id="menu-mobile">
+            <ul>
+              <li><a href="../index.html">TRANG CHỦ.</a></li>
+              <li><a href="../page/gioithieu.html">GIỚI THIỆU.</a></li>
+              <li class="menu"><a href="../page/bdscanho.html">BDS ĐANG PHÂN PHỐI.</a>
+                <div class="submenu">
+                  <ul >
+                    <li style="color: white"><a href="#">CĂN HỘ</a></li>
+                    <li><a href="#">ĐẤT NỀN</a></li>
+                    <li><a href="#">NHÀ PHỐ</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="../page/lienhe.html">LIÊN HỆ.</a></li>
+            </ul>
+            <span onclick="toggleBtn()" style="position: absolute;top: 0;right: 0;"><i class="far fa-times-circle" style="font-size: 50px"></i></span>
+          </div>
+          <div class="logo">
+            <a href="../index.html"><img src="../img/logo.png"></a>
+          </div>
+          <button class="menu-icon" onclick="toggleBtn()"><i class="fas fa-bars"></i></button>
+        </div>
+      </div>
+      <section  >
+          <div class="container" id="header-cover-page">
+              <div class="title-page" style="padding-bottom: 20px">
+                <div>
+                  <p style="font-size: 55px;text-align: center;">BDS đang phân phối</p>
+                  <p style="text-align: center;">Trang chủ - BDS đang phân phối</p>
+                </div>
+              </div>
+              <div style="display: flex;justify-content: center;padding-bottom: 50px">
+                <div class="wrap-filter">
+                  <td>
+                     <select name="loai-dat" id="loai-dat" class="single-form-data">
+                       <option value="" disabled selected>Loại bds</option>
+                       <option>1</option>
+                       <option>2</option>
+                     </select>
+                  </td>
+                  <td>
+                     <select name="quan" id="quan" class="single-form-data">
+                        <option value="" disabled selected>Quận / Huyện</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                  </td>
+                  <td>
+                    <select name="dien-tich" id="dien-Diện t" class="single-form-data">
+                      <option value="" disabled selected>Diện tích</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </td>
+                  <td>
+                      <select name="muc-gia" id="muc-gia" class="single-form-data">
+                        <option value="" disabled selected>Mức giá</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                  </td>
+                  <td>
+                    <select name="huong" id="huong" class="single-form-data">
+                      <option value="" disabled selected>Hướng</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </td>
+                    <td>
+                      <button class="btn-search"><i class="fas fa-search"></i>Tìm Kiếm</button>
+                  </td>
+                </div>
+              </div>
+
+          </div>
+      </section>
+  </header>
+  <main style="margin-top: 50px">
+     <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 col-12">
+              <div class="feature">
+                <img src="../img/main-img.png" style="width: 100%" class="feature-image"/>
+              </div>
+              <div class="image-slider" style="margin-top: 30px">
+                <div class="image-item">
+                  <div class="image">
+                    <img src="../img/gallery-img-1.png" class="img-click"/>
+                  </div>
+                </div>
+                <div class="image-item">
+                  <div class="image">
+                    <img src="../img/gallery-img-2.png" class="img-click"/>
+                  </div>
+                </div>
+                <div class="image-item">
+                  <div class="image">
+                    <img src="../img/gallery-img-3.png" class="img-click"/>
+                  </div>
+                </div>
+                <div class="image-item">
+                  <div class="image">
+                    <img src="../img/gallery-img-4.png" class="img-click"/>
+                  </div>
+                </div>
+                <div class="image-item">
+                  <div class="image">
+                    <img src="../img/gallery-img-5.png" class="img-click"/>
+                  </div>
+                </div>
+                <div class="image-item">
+                  <div class="image">
+                    <img src="../img/gallery-img-5.png" class="img-click"/>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap-title-header">
+                <h3>Cần bán căn hộ 100 m2 Trinh Phong Nha Trang</h3>
+                <p>Đường Trịnh Phong , Phường Phước Hoà, Nha Trang, Khánh Hoà</p>
+              </div>
+              <div class="bottom-title">
+                <span>Giá thuê: <strong>165 triệu/m2</strong></span>
+                <span>Diện tích: <strong>100 m2</strong></span>
+                <div class="social-media">
+                  <span><i class="fab fa-facebook-f"></i></span>
+                  <span><i class="fab fa-twitter"></i></span>
+                  <span><i class="fab fa-youtube"></i></span>
+                </div>
+              </div>
+              <p style="margin-top: 20px"><strong>Thông tin mô tả:</strong></p>
+              <p>Occupying over 8,000 square feet, perched over 1,100 feet in the air with absolutely breaktaking panoramic 360-degree  views of all of New York City and the surrounding tri-state area, The 82nd Floor at 432 Park Avenue has been completely reimagined by one of the most sought-after design houses in  London and represents an utterly unique opportunity to own an globally significant property. Metropolitan Museum. Elegant lobby and 24 hours doorman. This is a pet-friendly building.</p>
+              <p>Occupying over 8,000 square feet, perched over 1,100 feet in the air with absolutely breaktaking panoramic 360-degree  views of all of New York City and the surrounding tri-state area, The 82nd Floor at 432 Park Avenue has been completely reimagined by one of the most sought-after design houses in  London and represents an utterly unique opportunity to own an globally significant property. Metropolitan Museum. Elegant lobby and 24 hours doorman. This is a pet-friendly building.</p>  
+          </div>
+          <div class="col-lg-4 col-md-12 col-12">
+              <div class="side-bar">
+                <p style="font-size: 17px !important; color: #694d10">BẠN TÌM BDS Ở ĐÂU?</p>
+                <ul style="font-size: 17px !important">
+                  <li>Lộc Thọ (44)</li>
+                  <li>Phước Hải (41)</li>
+                  <li>Phước Hoà (27)</li>
+                  <li>Phước Long (21)</li>
+                  <li>Phước Tân (13)</li>
+                  <li>Phước Tiến (13)</li>
+                  <li>Tân Lập (20)</li>
+                  <li>Vĩnh Hải (19)</li>
+                  <li>Vĩnh Hiệp (17)</li>
+                  <li>Vĩnh Hoà (25)</li>
+                </ul>
+            </div>
+              <div class="side-bar" style="margin-top: 20px;">
+                <p style="font-size: 17px !important; color: #694d10">NHU CẦU MUA BDS?</p>
+                <ul style="font-size: 17px !important">
+                  <li>Căn hộ </li>
+                  <li>Nhà phố</li>
+                  <li>Biệt thự </li>
+                  <li>Đất nền</li>
+                  <li>Mặt bằng kinh doanh</li>
+                  <li>Shop house</li>
+                  <li>Bất động sản khác</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p style="margin-top: 20px;font-size: 25px"><strong>Bất động sản liên quan:</strong></p>
+          <div class="cards" >
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <img src="../img/img-5.png">
+              <div class="content-box">
+                <p class="title-item">Bán căn hộ Vigo Nha Trang tầng 15</p>
+                <div class="price" style="display: flex;justify-content: space-between;">
+                  <p>250 triệu / m2</p>
+                  <p>350m2</p>
+                </div>
+                <p>Nha Trang - Khánh Hoà</p>
+              </div>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+              <img src="../img/img-13.png">
+              <div class="content-box">
+                <p class="title-item">Bán căn hộ Vigo Nha Trang tầng 15</p>
+                <div class="price" style="display: flex;justify-content: space-between;">
+                  <p>1.4 tỷ</p>
+                  <p>1445 m2</p>
+                </div>
+                <p>Ninh Hoà - Khánh Hoà</p>
+              </div>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+              <img src="../img/img-14.png">
+              <div class="content-box">
+                <p class="title-item">Bán căn hộ Vigo Nha Trang tầng 15</p>
+                <div class="price" style="display: flex;justify-content: space-between;">
+                  <p>8.8 tỷ</p>
+                  <p>250 m2</p>
+                </div>
+                <p>Cam Ranh - Khánh Hoà</p>
+              </div>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+              <img src="../img/img-15.png">
+              <div class="content-box">
+                <p class="title-item">Bán căn hộ Vigo Nha Trang tầng 15</p>
+                <div class="price" style="display: flex;justify-content: space-between;">
+                  <p>12.5 tỷ</p>
+                  <p>3500 m2</p>
+                </div>
+                <p>Diên Khánh - Khánh Hoà</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer style="margin-top: 40px">
+    <div class="container">
+    	<div style="border-bottom: 1px solid #CCCCCC">
+    		<div style="display: flex;justify-content: space-between;color: white; padding-top: 50px;flex-wrap: wrap">
+	    		<div>
+	    			<h3>Thông tin liên hệ</h3>
+	    			<div class="line" style="height: 3px;border-radius: 15px "></div>
+	    			<div style="margin-top: 60px">
+	    				<p>Công ty TNHH Thương Mại & Đầu Tư NewCity</p>
+	    				<p>Địa chỉ: 06 Tôn Thất Tùng,Vĩnh Thọ, Nha Trang</p>
+	    				<p>Điện thoại: 0258 777 9999  |  Email: nhansu@newcitynhatrang.com</p>
+	    			</div>
+	    		</div>
+	    		<div>
+	    			<h3>Bất động sản phân phối</h3>
+	    			<div class="line" style="height: 3px;border-radius: 15px "></div>
+	    			<div style="margin-top: 60px">
+	    				<div class="wiget-content">
+	    					<div style="margin-right: 50px">
+	    						<p><a href="#">Căn hộ</a></p>
+	    						<p><a href="#">Đất nền</a></p>
+	    						<p><a href="#">Nhà phố</a></p>
+	    					</div>
+	    					<div>
+	    						<p><a href="#">Biệt thự - Nhà liền kề</a></p>
+	    						<p><a href="#">Shop house - Mặt bằng kinh doanh</a></p>
+	    						<p><a href="#">Bất động sản khác</a></p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+    	</div>
+    	<div style="display: flex;justify-content: space-between;color: white; padding-top: 15px;padding-bottom: 40px;flex-wrap: wrap">
+    		<div>
+    			<span>Online: 12</span>
+    			<span>Truy cập: 2547</span>
+    		</div>
+    		<div>
+    			<span><i class="fas fa-copyright"></i> 2022 All rights reserved. Designed by PutaDesign</span>
+    		</div>
+    	</div>
+    </div>
+  </footer>  
+  </body>
+    <script type="text/javascript" src="../js/jquery-1.11.0.min.js" ></script>
+    <script src="../js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script type="text/javascript">
+    var mobilemenu =document.getElementById("menu-mobile");
+    function toggleBtn(){
+      mobilemenu.classList.toggle("active");
+    }
+
+
+    const imagesrow = document.querySelectorAll(".img-click");
+    imagesrow.forEach((el) => el.addEventListener("click", handleChangeImage));
+      function handleChangeImage(e) {
+        const source = e.target.getAttribute("src");
+        const featureImage = document.querySelector(".feature-image");
+        featureImage.setAttribute("src", source);
+      }
+
+
+
+      $(document).ready(function () {
+        $(".image-slider").slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          infinite: true,
+          arrows: true,
+          draggable: false,
+          prevArrow: `<button type='button' class='slick-prev slick-arrow'><i class="fas fa-long-arrow-alt-left"></i></button>`,
+          nextArrow: `<button type='button' class='slick-next slick-arrow'><i class="fas fa-long-arrow-alt-right"></i></button>`,
+          dots: true,
+          responsive: [
+            {
+              breakpoint: 1025,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                arrows: true,
+                draggable: false,
+                prevArrow: `<button type='button' class='slick-prev slick-arrow'><i class="fas fa-long-arrow-alt-left"></i></button>`,
+                nextArrow: `<button type='button' class='slick-next slick-arrow'><i class="fas fa-long-arrow-alt-right"></i></button>`,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 480,
+
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                arrows: true,
+                draggable: false,
+                prevArrow: `<button type='button' class='slick-prev slick-arrow'><i class="fas fa-long-arrow-alt-left"></i></button>`,
+                nextArrow: `<button type='button' class='slick-next slick-arrow'><i class="fas fa-long-arrow-alt-right"></i></button>`,
+                dots: true,
+              },
+            },
+          ],
+          //autoplay: true,
+          //autoplaySpeed: 1000,
+        });
+      });
+
+
+    new WOW().init();
+  </script>
+</html>

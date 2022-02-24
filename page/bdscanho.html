@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BDS Căn Hộ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script> 
+  </head>
+  <body>
+  <header>
+    <div class="container">
+        <div class="nav-pc">
+          <div class="logo">
+            <a href="../index.html"><img src="../img/logo.png"></a>
+          </div>
+          <div class="menu-pc">
+            <ul>
+              <li><a href="../index.html">TRANG CHỦ.</a></li>
+              <li><a href="../page/gioithieu.html">GIỚI THIỆU.</a></li>
+              <li class="menu"><a href="../page/bdscanho.html">BDS ĐANG PHÂN PHỐI.</a>
+                <div class="submenu">
+                  <ul >
+                    <li style="color: white"><a href="#">CĂN HỘ</a></li>
+                    <li><a href="#">ĐẤT NỀN</a></li>
+                    <li><a href="#">NHÀ PHỐ</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="../page/lienhe.html">LIÊN HỆ.</a></li>
+            </ul>
+          </div>
+          <div class="contact">
+            <a href="#"><i class="fas fa-phone-alt" style="padding-right: 10px"></i>0935 542 260</a>
+          </div>
+        </div>
+        <div class="nav-mobile">
+          <div id="menu-mobile">
+            <ul>
+              <li><a href="../index.html">TRANG CHỦ.</a></li>
+              <li><a href="../page/gioithieu.html">GIỚI THIỆU.</a></li>
+              <li><a href="../page/bdscanho.html">BDS ĐANG PHÂN PHỐI.</a></li>
+              <li><a href="../page/lienhe.html">LIÊN HỆ.</a></li>
+            </ul>
+            <span onclick="toggleBtn()" style="position: absolute;top: 0;right: 0;"><i class="far fa-times-circle" style="font-size: 50px"></i></span>
+          </div>
+          <div class="logo">
+            <a href="../index.html"><img src="../img/logo.png"></a>
+          </div>
+          <button class="menu-icon" onclick="toggleBtn()"><i class="fas fa-bars"></i></button>
+        </div>
+      </div>
+      <section >
+          <div class="container " id="header-cover-page" >
+              <div class="title-page" style="padding-bottom: 30px;">
+                <div>
+                  <p style="font-size: 50px;text-align: center;">Bất động sản đang phân phối</p>
+                  <p style="text-align: center;">Trang chủ - BDS đang phân phối</p>
+                </div>
+              </div>
+              <div style="display: flex;justify-content: center;padding-bottom: 50px">
+                <div class="wrap-filter">
+                  <td>
+                     <select name="loai-dat" id="loai-dat" class="single-form-data">
+                       <option value="" disabled selected>Loại bds</option>
+                       <option>1</option>
+                       <option>2</option>
+                     </select>
+                  </td>
+                  <td>
+                     <select name="quan" id="quan" class="single-form-data">
+                        <option value="" disabled selected>Quận / Huyện</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                  </td>
+                  <td>
+                    <select name="dien-tich" id="dien-Diện t" class="single-form-data">
+                      <option value="" disabled selected>Diện tích</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </td>
+                  <td>
+                      <select name="muc-gia" id="muc-gia" class="single-form-data">
+                        <option value="" disabled selected>Mức giá</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                  </td>
+                  <td>
+                    <select name="huong" id="huong" class="single-form-data">
+                      <option value="" disabled selected>Hướng</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </td>
+                    <td>
+                      <button class="btn-search"><i class="fas fa-search"></i>Tìm Kiếm</button>
+                  </td>
+                </div>
+              </div>
+
+          </div>
+      </section>
+  </header>
+  <main style="margin-top: 50px">
+     <div class="container">
+       <div style="display: flex;justify-content: center;">
+         <button class="span-title">Căn hộ</button>
+       </div>
+       <div class="cards" style="margin-top: 70px">
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <a href="../page/bdscanhochitiet.html">
+                <img src="../img/img-5.png" style="width: 100%">
+                <div class="content-box">
+                  <p class="title-item">Bán căn hộ Vigo Nha Trang tầng 15</p>
+                  <div class="price" style="display: flex;justify-content: space-between;">
+                    <p>250 triệu / m2</p>
+                    <p>350m2</p>
+                  </div>
+                  <p>Nha Trang - Khánh Hoà</p>
+                </div>
+              </a>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+              <a href="../page/bdscanhochitiet.html">
+                <img src="../img/img-6.png" style="width: 100%">
+                <div class="content-box">
+                  <p class="title-item">Đất nền mặt tiền xã Ninh Xuân, Ninh Hoà</p>
+                  <div class="price" style="display: flex;justify-content: space-between;">
+                    <p>1.4 tỷ</p>
+                    <p>1445 m2</p>
+                  </div>
+                  <p>Ninh Hoà - Khánh Hoà</p>
+                </div>
+              </a>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+              <a href="../page/bdscanhochitiet.html">
+                <img src="../img/img-7.png" style="width: 100%">
+                <div class="content-box">
+                  <p class="title-item">Bán nhà phố mặt tiền Đinh Tiên Hoàn - Cam Ranh</p>
+                  <div class="price" style="display: flex;justify-content: space-between;">
+                    <p>8.8 tỷ</p>
+                    <p>250 m2</p>
+                  </div>
+                  <p>Cam Ranh - Khánh Hoà</p>
+                </div>
+              </a>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+              <a href="../page/bdscanhochitiet.html">
+                <img src="../img/img-8.png" style="width: 100%">
+                <div class="content-box">
+                  <p class="title-item">Biệt thự sân vườn tâm huyết thị trấn Diên Khánh</p>
+                  <div class="price" style="display: flex;justify-content: space-between;">
+                    <p>12.5 tỷ</p>
+                    <p>3500 m2</p>
+                  </div>
+                  <p>Diên Khánh - Khánh Hoà</p>
+                </div>
+              </a>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <a href="../page/bdscanhochitiet.html">
+                <img src="../img/img-9.png" style="width: 100%">
+                <div class="content-box">
+                  <p class="title-item">Bán căn hộ Vigo Nha Trang tầng 15</p>
+                  <div class="price" style="display: flex;justify-content: space-between;">
+                    <p>250 triệu / m2</p>
+                    <p>350m2</p>
+                  </div>
+                  <p>Nha Trang - Khánh Hoà</p>
+                </div>
+              </a>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+              <a href="../page/bdscanhochitiet.html">
+                <img src="../img/img-10.png" style="width: 100%">
+                <div class="content-box">
+                  <p class="title-item">Đất nền mặt tiền xã Ninh Xuân, Ninh Hoà</p>
+                  <div class="price" style="display: flex;justify-content: space-between;">
+                    <p>1.4 tỷ</p>
+                    <p>1445 m2</p>
+                  </div>
+                  <p>Ninh Hoà - Khánh Hoà</p>
+                </div>
+              </a>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+              <a href="../page/bdscanhochitiet.html">
+                <img src="../img/img-11.png" style="width: 100%">
+                <div class="content-box">
+                  <p class="title-item">Bán nhà phố mặt tiền Đinh Tiên Hoàn - Cam Ranh</p>
+                  <div class="price" style="display: flex;justify-content: space-between;">
+                    <p>8.8 tỷ</p>
+                    <p>250 m2</p>
+                  </div>
+                  <p>Cam Ranh - Khánh Hoà</p>
+                </div>
+              </a>
+            </div>
+            <div class="card wow fadeInUp" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+              <a href="../page/bdscanhochitiet.html">
+                <img src="../img/img-12.png" style="width: 100%">
+                <div class="content-box">
+                  <p class="title-item">Bán căn hộ Vigo Nha Trang tầng 15</p>
+                  <div class="price" style="display: flex;justify-content: space-between;">
+                    <p>250 triệu / m2</p>
+                    <p>350m2</p>
+                  </div>
+                  <p>Nha Trang - Khánh Hoà</p>
+                </div>
+              </a>
+            </div>
+        </div>
+        <div class="page-number">
+          <span style="border-bottom: 1px solid #5c3e0c"><a href="#">1</a></span>
+          <span><a href="#">2</a></span>
+          <span><a href="#">3</a></span>
+          <span><a href="#">4</a></span>
+        </div>
+     </div>
+  </main>
+  <footer style="margin-top: 40px">
+    <div class="container">
+    	<div style="border-bottom: 1px solid #CCCCCC">
+    		<div style="display: flex;justify-content: space-between;color: white; padding-top: 50px;flex-wrap: wrap">
+	    		<div>
+	    			<h3>Thông tin liên hệ</h3>
+	    			<div class="line" style="height: 3px;border-radius: 15px "></div>
+	    			<div style="margin-top: 60px">
+	    				<p>Công ty TNHH Thương Mại & Đầu Tư NewCity</p>
+	    				<p>Địa chỉ: 06 Tôn Thất Tùng,Vĩnh Thọ, Nha Trang</p>
+	    				<p>Điện thoại: 0258 777 9999  |  Email: nhansu@newcitynhatrang.com</p>
+	    			</div>
+	    		</div>
+	    		<div>
+	    			<h3>Bất động sản phân phối</h3>
+	    			<div class="line" style="height: 3px;border-radius: 15px "></div>
+	    			<div style="margin-top: 60px">
+	    				<div class="wiget-content">
+	    					<div style="margin-right: 50px">
+	    						<p><a href="#">Căn hộ</a></p>
+	    						<p><a href="#">Đất nền</a></p>
+	    						<p><a href="#">Nhà phố</a></p>
+	    					</div>
+	    					<div>
+	    						<p><a href="#">Biệt thự - Nhà liền kề</a></p>
+	    						<p><a href="#">Shop house - Mặt bằng kinh doanh</a></p>
+	    						<p><a href="#">Bất động sản khác</a></p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+    	</div>
+    	<div style="display: flex;justify-content: space-between;color: white; padding-top: 15px;padding-bottom: 40px;flex-wrap: wrap">
+    		<div>
+    			<span>Online: 12</span>
+    			<span>Truy cập: 2547</span>
+    		</div>
+    		<div>
+    			<span><i class="fas fa-copyright"></i> 2022 All rights reserved. Designed by PutaDesign</span>
+    		</div>
+    	</div>
+    </div>
+  </footer>  
+  </body>
+    <script type="text/javascript" src="../js/jquery-1.11.0.min.js" ></script>
+    <script src="../js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script type="text/javascript">
+    var mobilemenu =document.getElementById("menu-mobile");
+    function toggleBtn(){
+      mobilemenu.classList.toggle("active");
+    }
+
+
+    
+
+    new WOW().init();
+  </script>
+</html>
