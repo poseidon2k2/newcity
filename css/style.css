@@ -70,6 +70,7 @@ body{
 #header-cover{
 	background: url(../img/bg-banner.png);
     background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     font-weight: normal;
     padding: 200px 0 200px 0;
@@ -510,6 +511,7 @@ footer{
 	
 	.content-contact p{
 		margin-left: 160px;
+		width: 300px;
 	}
 }
 
@@ -518,7 +520,12 @@ footer{
 	flex-wrap: wrap; 
 	width: 100%;
 	margin-top: 10px;
+}
 
+@media (min-width: 355px){
+	.img-items{
+		height: 100% !important;
+	}
 }
 
 .btn-submit{
